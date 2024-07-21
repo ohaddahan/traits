@@ -260,7 +260,7 @@ dependencies = [
  "aead 0.5.2",
  "cipher 0.4.4",
  "crypto-common 0.1.6",
- "digest 0.10.7",
+ "digest 0.10.7 (registry+https://github.com/rust-lang/crates.io-index)",
  "elliptic-curve 0.13.8",
  "password-hash 0.5.0",
  "signature 2.2.0",
@@ -421,17 +421,6 @@ dependencies = [
 [[package]]
 name = "digest"
 version = "0.10.7"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "9ed9a281f7bc9b7576e61468ba615a66a5c8cfdff42420a70aa82701a3b1e292"
-dependencies = [
- "block-buffer 0.10.4",
- "crypto-common 0.1.6",
- "subtle",
-]
-
-[[package]]
-name = "digest"
-version = "0.11.0-pre.8"
 dependencies = [
  "blobby",
  "block-buffer 0.11.0-pre.5",
@@ -439,6 +428,17 @@ dependencies = [
  "crypto-common 0.2.0-pre.5 (registry+https://github.com/rust-lang/crates.io-index)",
  "subtle",
  "zeroize",
+]
+
+[[package]]
+name = "digest"
+version = "0.10.7"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "9ed9a281f7bc9b7576e61468ba615a66a5c8cfdff42420a70aa82701a3b1e292"
+dependencies = [
+ "block-buffer 0.10.4",
+ "crypto-common 0.1.6",
+ "subtle",
 ]
 
 [[package]]
@@ -495,7 +495,7 @@ checksum = "b5e6043086bf7973472e0c7dff2142ea0b680d30e18d9cc40f267efbf222bd47"
 dependencies = [
  "base16ct",
  "crypto-bigint 0.5.5",
- "digest 0.10.7",
+ "digest 0.10.7 (registry+https://github.com/rust-lang/crates.io-index)",
  "ff 0.13.0",
  "generic-array",
  "group 0.13.0",
@@ -514,7 +514,7 @@ dependencies = [
  "base16ct",
  "base64ct",
  "crypto-bigint 0.6.0-rc.0",
- "digest 0.11.0-pre.8 (registry+https://github.com/rust-lang/crates.io-index)",
+ "digest 0.11.0-pre.8",
  "ff 0.13.0",
  "group 0.13.0",
  "hex-literal",
@@ -695,7 +695,7 @@ version = "0.12.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "6c49c37c09c17a53d937dfbb742eb3a961d65a994e6bcdcf37e7399d0cc8ab5e"
 dependencies = [
- "digest 0.10.7",
+ "digest 0.10.7 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]
@@ -704,7 +704,7 @@ version = "0.13.0-pre.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "ffd790a0795ee332ed3e8959e5b177beb70d7112eb7d345428ec17427897d5ce"
 dependencies = [
- "digest 0.11.0-pre.8 (registry+https://github.com/rust-lang/crates.io-index)",
+ "digest 0.11.0-pre.8",
 ]
 
 [[package]]
@@ -717,7 +717,7 @@ dependencies = [
  "aes-gcm",
  "byteorder",
  "chacha20poly1305",
- "digest 0.10.7",
+ "digest 0.10.7 (registry+https://github.com/rust-lang/crates.io-index)",
  "generic-array",
  "hkdf 0.12.4",
  "hmac 0.12.1",
@@ -1169,7 +1169,7 @@ checksum = "793db75ad2bcafc3ffa7c68b215fee268f537982cd901d132f89c6343f3a3dc8"
 dependencies = [
  "cfg-if",
  "cpufeatures",
- "digest 0.10.7",
+ "digest 0.10.7 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]
@@ -1180,7 +1180,7 @@ checksum = "8f33549bf3064b62478926aa89cbfc7c109aab66ae8f0d5d2ef839e482cc30d6"
 dependencies = [
  "cfg-if",
  "cpufeatures",
- "digest 0.11.0-pre.8 (registry+https://github.com/rust-lang/crates.io-index)",
+ "digest 0.11.0-pre.8",
 ]
 
 [[package]]
@@ -1189,7 +1189,7 @@ version = "0.11.0-pre.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "f32c02b9987a647a3d6af14c3e88df86594e4283050d9d8ee3a035df247785b9"
 dependencies = [
- "digest 0.11.0-pre.8 (registry+https://github.com/rust-lang/crates.io-index)",
+ "digest 0.11.0-pre.8",
  "keccak",
 ]
 
@@ -1216,7 +1216,7 @@ dependencies = [
 name = "signature"
 version = "2.3.0-pre.3"
 dependencies = [
- "digest 0.11.0-pre.8 (registry+https://github.com/rust-lang/crates.io-index)",
+ "digest 0.11.0-pre.8",
  "hex-literal",
  "rand_core",
  "sha2 0.11.0-pre.3",
